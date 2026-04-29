@@ -1,17 +1,30 @@
- # attestation.py — Конвертер валют с историей
+# Currency Converter
 
-**Автор:** Зольников Захар
-**Email:** zolnikov07@bk.ru
-**GitHub:** [github.com/ivanov/currency-converter](https://github.com/ivanov/currency-converter)
+**Автор:** Зольников Захар 18 Ставрополь 
+**Вариант:** №1 Currency Converter
+**Дата сдачи:** 29.04.2026
 
-## 🌐 Получение API-ключа
+# Описание проетка
 
-1. Перейдите на [exchangerate-api.com](https://www.exchangerate-api.com)
-2. Нажмите **"Get Free API Key"**
-3. Введите ваш email и подтвердите регистрацию
-4. Скопируйте полученный ключ (формат: `xxxxxxxxxxxxxxxxxxxxxxxx`)
-## 🚀 Запуск
+Currency Converter — это графическое приложение на Python, позволяющее конвертировать валюты в реальном времени с использованием внешнего API. Приложение поддерживает:
+- Выбор валют (из и в)
+- Ввод суммы для конвертации
+- Отображение результата и текущего курса
+- Сохранение истории операций в файл `history.json`
+- Загрузку истории при запуске
+- Валидацию ввода (только положительные числа)
 
-```bash
-pip install requests
-python attestation.py
+## Требования
+
+* Python 3.6+
+* Библиотеки: `tkinter` (встроен в Python), `json` (встроен в Python)
+
+## Как запустить 
+
+```bash 
+git clone https://github.com/apllecloud/Smyshlyaeav 
+cd TrainingPlanner
+python kod.py 
+
+
+ 
